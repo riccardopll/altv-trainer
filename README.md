@@ -1,22 +1,31 @@
-# altv-trainer
-[![Build Status](https://travis-ci.org/Jayreen58/altv-trainer.svg?branch=master)](https://travis-ci.org/Jayreen58/altv-trainer)  
-**altv-trainer** is a general-purpose menu built on **[NativeUI](https://github.com/DurtyFree/alt-V-NativeUI)** designed for **[alt:V](https://altv.mp/#/)**. It includes many options to help you debug your scripts or just mess around with your friends. It is **not** supposed to be an admin menu. `(for now)`  
-## Installing
-**altv-trainer** was developed and tested on `release build #1286`.
-- **[Download latest release](https://github.com/Jayreen58/altv-trainer/releases/latest)**
-- Unzip then drag the resource to `yourserverfolder/resources`.
-- Add `trainer` to your `server.cfg` resources.
-- Press **M** to open the menu. `(custom keybind coming soon)`
+# alt:V Trainer
 
-## Contribute
-There are many ways to contribute to **altv-trainer**
-- **[Submit bugs and feature requests](https://github.com/Jayreen58/altv-trainer/issues)**
-- Open and review **[pull requests](https://github.com/Jayreen58/altv-trainer/pulls)**
+`altv-trainer` is a TypeScript trainer resource for [alt:V](https://altv.mp/#/) built on [NativeUI](https://github.com/DurtyFree/alt-V-NativeUI).
+It was designed for fast in-game iteration: testing player, vehicle, weapon, and world behavior without custom one-off scripts.
+
+Some highlights:
+
+- modular menu architecture (base abstractions + focused submenus)
+- strong typing around alt:V natives and game constants
+- clean separation between client and server modules
+- lightweight Rollup + TypeScript build pipeline
+
+It is intentionally a trainer/debug utility, not an admin system.
+
+## Install
+
+- [Download the latest release](https://github.com/Jayreen58/altv-trainer/releases/latest)
+- Move the extracted resource into `yourserverfolder/resources`
+- Add `trainer` to your `server.cfg`
+- Press `M` in game to open the menu
+
+Developed and tested on `release build #1286`.
+
+## Contributing
+
+- [Open an issue](https://github.com/Jayreen58/altv-trainer/issues)
+- [Submit a pull request](https://github.com/Jayreen58/altv-trainer/pulls)
 
 ## Credits
-- **[@DurtyFree](https://github.com/DurtyFree)** for his **[NativeUI](https://github.com/DurtyFree/alt-V-NativeUI)** resource.  
-- **[@EnforcedLeo](https://github.com/EnforcedLeo)** for helping me debug the menu.
-- **[Support me ❤️](https://www.paypal.com/paypalme/jayreen58)**
 
-## Roadmap
-**soon™**
+- [@DurtyFree](https://github.com/DurtyFree) for [NativeUI](https://github.com/DurtyFree/alt-V-NativeUI)
